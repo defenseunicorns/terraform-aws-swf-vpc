@@ -42,6 +42,6 @@ jobs:
           role-duration-seconds: 1800
 
       - name: Run Shared Test workfow
-        uses: defenseunicorns/uds-common-workflows/.github/actions/terraform-test@main
+        uses: defenseunicorns/uds-common-workflows/.github/actions/terraform-test@fix-setup-go
         with:
           test_retry: 1
